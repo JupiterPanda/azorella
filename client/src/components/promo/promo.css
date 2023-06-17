@@ -1,0 +1,69 @@
+.promo
+{
+
+    height: 600px;
+    /* margin-bottom: 50px; */
+    background-image: url('./../../img/pic_1-cliped.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: antiquewhite;
+    border-radius: 0 0 40px 40px;
+}
+
+
+.promo_content
+{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+
+.promo_text
+{
+    /* padding-top: 250px;
+    padding-left: 50px; */
+
+}
+
+.title
+    {
+    /* padding-top: 70px; */
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1.3;
+    color: antiquewhite;
+    opacity: 0.7;}
+
+.desc
+{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.3;
+    color: antiquewhite;
+    opacity: 0.7;
+}
+
+.button_one
+{
+    background-color: rgb(2 44 34);
+    height: 3rem;
+    width: 15%; /*30%*/
+    margin-top: 20px;
+    border-radius: 10px;
+    grid-row: 5;
+    grid-column: 2 / 6 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.button_text
+{
+    display: flex;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.3;
+    color:rgb(235, 165, 61);
+    opacity: 0.8;
+}

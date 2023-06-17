@@ -1,0 +1,64 @@
+.aboutus{
+    height: 400px;
+    /* background-color: aqua; */
+    padding: 70px
+    
+}
+
+.aboutus_content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.content_1
+{
+    display: flex;
+    justify-content:space-between ;
+    height: 300px;
+    max-width: 450px;
+    /* background-color: aliceblue; */
+}
+
+.aboutus_img_1
+{
+    margin-top: 60px;
+    object-fit: scale-down;
+}
+
+.aboutus_img_2
+{ 
+    margin-top: 80px;
+    object-fit: scale-down;
+
+}
+
+.aboutus_img_3
+{ 
+    margin-top: 100px;
+    object-fit: scale-down;
+
+}
+
+.content_2
+{
+    height: 300px;
+    max-width: 450px;
+    /* background-color: aliceblue; */
+}
+
+.content_2_title
+{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+.content_2_desc 
+{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+}
